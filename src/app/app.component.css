@@ -1,0 +1,38 @@
+
+.container{
+    margin-top: 40px;
+}
+.example-container mat-form-field + mat-form-field {
+    margin-left: 8px;
+  }
+  
+.example-right-align {
+text-align: right;
+}
+
+input.example-right-align::-webkit-outer-spin-button,
+input.example-right-align::-webkit-inner-spin-button {
+display: none;
+}
+
+input.example-right-align {
+-moz-appearance: textfield;
+}
+
+.btn-submit{
+    margin-top: 20px;
+}
+  
+.btn-left{
+    margin-left: 10px;
+}
+
+.create-title{
+    text-align: center;
+    background: blue;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
